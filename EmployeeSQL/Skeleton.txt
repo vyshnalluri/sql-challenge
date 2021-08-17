@@ -1,0 +1,9 @@
+dept: dept.num - pk
+employeees: empl # - pk
+	    title-id - fk from title table
+dept-empl: dept num-fk from dept table
+	   empl# -fk from employees table
+dept-mana: dept num-fk from dept table
+	   empl# -fk from employees table
+salaries: empl# -fk from employees table
+title: title-id - pk
